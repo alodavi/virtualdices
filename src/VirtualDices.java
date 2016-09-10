@@ -7,10 +7,7 @@ public class VirtualDices {
 		//let the user use the keyboard
 		Scanner scan = new Scanner(System.in);
 
-		//System.out.println("How many dices do you want to roll? ");
-		
-		//int dicesNum = scan.nextInt();
-		
+		//initialize success and reroll variables
 		int success = 0;
 		int reRoll = 0;
 		
@@ -18,6 +15,7 @@ public class VirtualDices {
 		
 		while (confirm == "y"){
 			
+			//number of dices to be rolled
 			int dicesNum;
 			if (reRoll != 0){
 				
